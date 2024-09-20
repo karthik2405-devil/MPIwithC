@@ -1,0 +1,12 @@
+compile:
+mpicc -o assign_2 assign_2.c
+
+
+Run
+mpirun -np 4 ./assign_2
+
+testcase:  (all the non-diagonal elements)
+2 9 10 0 2 1 6 4 9 1 4 8 10 6 4  5 0 4 8 5
+
+output:
+0 2 3 5 0
